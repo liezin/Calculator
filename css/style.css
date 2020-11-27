@@ -1,0 +1,88 @@
+body{
+	background-color: #eddad1;
+}
+
+h1{
+	font-size: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 12em;
+}
+h2 {
+	font-size: 40px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 4em;
+}
+
+label {
+	font-size: 40px;
+	margin-left: 20px;
+	margin-right: 20px;	
+}
+
+.table{
+	display: flex;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 77em;
+	margin-bottom: 15px;
+}
+
+.table_item{
+	border:0;
+	padding: 1px 75px;
+	border-radius: 50px;
+	width: 9em;
+}
+
+.example{	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	width: 77em;
+}
+.numberss{
+	border:0;
+	padding: 10px 15px;
+	border-radius: 50px;
+	font-size: 40px;
+	width: 9em;
+}
+.numberss:focus{
+	outline: none;
+}
+.actions{
+	border:0;
+	padding: 10px 21px;
+	border-radius: 50px;
+	font-size: 40px;
+	width: 100px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.actions:focus{
+	outline: none;
+}
+
+.calc{
+	position: absolute;
+	left: 40%;
+	padding:  4px 15px;
+	font-size: 28px;
+	color:rgba(100, 78, 67, 0.686);
+	background: #F2F2F2;	
+	border:  none;
+	border-radius: 4px;	
+	letter-spacing: 0.01em;
+	outline: none;
+	cursor: pointer;
+}
+.calc:hover,
+.calc:focus
+{	outline: none;
+	background-color: #c09984;
+	color: white;
+} 
